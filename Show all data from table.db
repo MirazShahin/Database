@@ -1,0 +1,17 @@
+create database Information;
+create table Cities(
+   Name varchar(50),
+   country varchar(50),
+   pupulation integer,
+   area integer
+);
+insert into Cities
+value
+  ('Dhaka', 'Bangladesh', 121231, 123131),
+  ('Delhi', 'India', 32112, 43215),
+  ('Tokyo', 'Japan', 23121, 76435),
+  ('Sydni', 'Australia', 13121, 143231),
+  ('Harare', 'Zimbabwe', 21412, 87215),
+  ('Lahore', 'Pakistan', 8734, 12311);
+  
+  select * from Cities;
